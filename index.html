@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Generador de Contraseñas Seguras</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="container">
+    <h1>🔐 Generador de Contraseñas Seguras</h1>
+
+    <div class="password-display" id="passwordDisplay">Tu contraseña aparecerá aquí</div>
+
+    <div class="options">
+      <label>
+        Longitud: 
+        <input type="number" id="lengthInput" min="6" max="64" value="16" />
+      </label>
+      
+      <label><input type="checkbox" id="includeUppercase" checked /> Mayúsculas (A-Z)</label>
+      <label><input type="checkbox" id="includeLowercase" checked /> Minúsculas (a-z)</label>
+      <label><input type="checkbox" id="includeNumbers" checked /> Números (0-9)</label>
+      <label><input type="checkbox" id="includeSymbols" /> Símbolos (!@#$...)</label>
+    </div>
+
+    <button id="generateBtn">Generar Contraseña</button>
+    <button id="copyBtn" disabled>Copiar al portapapeles</button>
+
+    <div id="message" class="message"></div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

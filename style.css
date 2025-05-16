@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(135deg, #1f1c2c, #928dab);
+  font-family: 'Share Tech Mono', monospace;
+  color: #cddc39;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  background: rgba(18, 18, 18, 0.9);
+  border: 3px solid #cddc39;
+  border-radius: 12px;
+  padding: 30px 40px;
+  width: 380px;
+  box-shadow: 0 0 15px #cddc39;
+  text-align: center;
+  user-select: none;
+}
+
+h1 {
+  margin-bottom: 25px;
+  font-size: 1.8rem;
+  letter-spacing: 2px;
+  text-shadow: 0 0 8px #cddc39;
+}
+
+.password-display {
+  background: #222;
+  border: 2px solid #cddc39;
+  border-radius: 8px;
+  padding: 15px 10px;
+  font-size: 1.3rem;
+  letter-spacing: 3px;
+  margin-bottom: 20px;
+  color: #8bc34a;
+  word-break: break-all;
+  min-height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.3s ease;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 25px;
+  gap: 12px;
+}
+
+.options label {
+  font-size: 0.95rem;
+  cursor: pointer;
+}
+
+.options input[type="number"] {
+  width: 60px;
+  margin-left: 8px;
+  padding: 3px 6px;
+  border-radius: 4px;
+  border: 1px solid #cddc39;
+  background: #111;
+  color: #cddc39;
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 1rem;
+  outline: none;
+  transition: border-color 0.25s ease;
+}
+
+.options input[type="number"]:focus {
+  border-color: #8bc34a;
+}
+
+button {
+  background: transparent;
+  border: 2px solid #cddc39;
+  color: #cddc39;
+  padding: 10px 20px;
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 8px;
+  margin: 0 8px 10px 8px;
+  transition: all 0.3s ease;
+  user-select: none;
+  box-shadow: 0 0 10px transparent;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+button:hover:not(:disabled) {
+  animation: glow 1.5s infinite alternate;
+}
+
+.message {
+  font-size: 0.9rem;
+  height: 20px;
+  color: #8bc34a;
+  margin-top: 10px;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  user-select: none;
+}
+
+.message.show {
+  opacity: 1;
+}
+
+/* Animaciones */
+
+@keyframes glow {
+  0%, 100% {
+    box-shadow: 0 0 6px #cddc39;
+  }
+  50% {
+    box-shadow: 0 0 20px #8bc34a;
+  }
+}
+
+.password-display.flash {
+  animation: flashBg 0.4s ease;
+}
+
+@keyframes flashBg {
+  0% {
+    background-color: #8bc34a;
+    color: #121212;
+  }
+  100% {
+    background-color: #222;
+    color: #8bc34a;
+  }
+}
