@@ -1,64 +1,74 @@
-# Generador de Contraseñas Seguras 🔐
+# Secure Password Generator / Generador de Contraseñas Seguras  
 
-Una página web simple y elegante para generar contraseñas seguras al instante.  
-Diseñada con HTML, CSS moderno y JavaScript para brindar una experiencia rápida y visualmente atractiva.
+A simple and functional web app to instantly create strong and secure passwords.  
+Built with HTML, CSS, and JavaScript for a fast, intuitive, and responsive experience.  
 
----
+Una aplicación web simple y funcional para generar contraseñas seguras al instante.  
+Desarrollada con HTML, CSS y JavaScript para brindar una experiencia rápida, intuitiva y responsiva.  
 
-## Características
+## Preview / Vista previa  
 
-- Genera contraseñas aleatorias con opciones personalizables (mayúsculas, minúsculas, números, símbolos).
-- Interfaz moderna con animaciones suaves y diseño responsivo.
-- Botón para copiar la contraseña generada al portapapeles.
-- Indicador visual de la seguridad de la contraseña.
-- Fácil de usar, ideal para proteger tus cuentas en línea.
+<p align="center">
+  <img src="https://i.pinimg.com/1200x/38/bf/02/38bf02b3944745ab1d01d191c01da863.jpg" alt="Preview" width="400">
+</p>  
 
----
+## Features / Características  
 
-## Demo
+- Generate random passwords with customizable options (uppercase, lowercase, numbers, symbols).  
+- Modern interface with responsive design and smooth animations.  
+- One-click copy to clipboard.  
+- Visual indicator showing password strength.  
+- Easy to use — perfect for securing online accounts.  
 
-Puedes probarlo directamente abriendo el archivo `index.html` en tu navegador favorito.
+- Genera contraseñas aleatorias con opciones personalizables (mayúsculas, minúsculas, números y símbolos).  
+- Interfaz moderna con diseño responsivo y animaciones suaves.  
+- Botón para copiar la contraseña con un solo clic.  
+- Indicador visual de la seguridad de la contraseña.  
+- Fácil de usar, ideal para proteger cuentas en línea.  
 
----
+## Live Demo / Demo  
 
-## Uso
+**English:** Try it here: **[Open Demo](GITHUB_PAGES_LINK)**  
+**Español:** Pruébalo aquí: **[Abrir demo](GITHUB_PAGES_LINK)**  
 
-1. Selecciona las opciones de la contraseña (tipos de caracteres y longitud).  
+## How to Use / Uso  
+
+1. Select your preferred character types and password length.  
+2. Click **Generate Password**.  
+3. Copy and use the password wherever you need.  
+
+1. Selecciona los tipos de caracteres y la longitud de la contraseña.  
 2. Haz clic en **Generar contraseña**.  
-3. Copia la contraseña generada para usarla donde necesites.
+3. Copia la contraseña generada y úsala donde la necesites.  
 
----
+## Technologies Used / Tecnologías Utilizadas  
 
-## Tecnologías
+- **HTML**  
+- **CSS**  
+- **JavaScript**  
 
-- HTML5  
-- CSS3 (Flexbox, Animaciones)  
-- JavaScript (ES6)
+## Contributing / Cómo Contribuir  
 
----
+**English:**  
+You can help improve this project by:  
+- Adding new options (e.g., exclude similar characters).  
+- Enhancing design or accessibility.  
+- Optimizing the JavaScript code.  
 
-## Cómo contribuir
+**Español:**  
+Puedes ayudar a mejorar este proyecto:  
+- Añadiendo nuevas opciones (por ejemplo, evitar caracteres similares).  
+- Mejorando el diseño o la accesibilidad.  
+- Optimizando el código JavaScript.  
 
-Si deseas mejorar este proyecto, puedes:  
-- Añadir nuevas opciones (por ejemplo, evitar caracteres similares).  
-- Mejorar el diseño o la accesibilidad.  
-- Optimizar el código JavaScript.  
+Fork the repository, create a new branch, and submit a pull request.  
+Haz un fork del repositorio, crea una nueva rama y envía un pull request.  
 
-Haz un fork del repo, crea una rama nueva y envía un pull request.
+## Author / Autor  
 
----
+[**Dev-Sot**](https://github.com/Dev-Sot)  
 
-## Autor
+## License / Licencia  
 
-Dev-Sot
-
----
-
-## Licencia
-
-Este proyecto está bajo la licencia MIT.  
-Puedes usarlo, modificarlo y distribuirlo libremente.
-
----
-
-¡Gracias por usar el generador! 🔐🚀
+Released under the MIT License — you are free to use, modify, and distribute this project.  
+Publicado bajo la Licencia MIT: puedes usarlo, modificarlo y distribuirlo libremente.  
