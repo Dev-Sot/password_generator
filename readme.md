@@ -28,8 +28,8 @@ Desarrollada con HTML, CSS y JavaScript para brindar una experiencia rápida, in
 
 ## Live Demo / Demo  
 
-**English:** Try it here: **[Open Demo](GITHUB_PAGES_LINK)**  
-**Español:** Pruébalo aquí: **[Abrir demo](GITHUB_PAGES_LINK)**  
+**English:** Try it here: **[Open Demo](https://dev-sot.github.io/password_generator/)**  
+**Español:** Pruébalo aquí: **[Abrir demo](https://dev-sot.github.io/password_generator/)**  
 
 ## How to Use / Uso  
 
